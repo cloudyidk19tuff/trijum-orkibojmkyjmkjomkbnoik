@@ -1,0 +1,17 @@
+# Raindrop Website Robots.txt
+
+User-agent: *
+Allow: /
+
+# Disallow access to sensitive areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.htaccess
+Disallow: /config/
+Disallow: /logs/
+
+# Sitemap location
+Sitemap: https://raindrop.dev/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 1
